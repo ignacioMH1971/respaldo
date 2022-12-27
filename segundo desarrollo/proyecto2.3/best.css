@@ -1,0 +1,757 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0px;
+}
+/*Section navbar*/
+.navbar{
+    background-color: #0046be;
+    width: 425px;
+    position: fixed;
+    z-index: 1;
+}
+.vacio{
+    background-color: white;
+    width: 425px;
+    height: 20px;
+}
+.barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+/*Section tiendas*/
+.tienda{
+    background-color: lavender;
+    width: 425px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.tiendas{
+    font-size: 10px;
+}
+
+.tienda a{
+    text-decoration: none;
+}
+/*Section descuentos*/
+.imgdesc{
+    width: 425px;
+    height: 200px;
+}
+.imgdesc2{
+    display: none;
+}
+
+h1{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.btnbuy{
+    margin-left: 10px;
+    background-color:#0046be ;
+    color: white;
+    width: 130px;
+    border-radius: 5px;
+    border: #0046be 1px;
+}
+.descuento{
+    background-color: white;
+    width: 425px;
+    height: 300px;
+    align-items: center;
+}
+.desc{
+    background-color: lavender;
+    width: 425px;
+    height: 90px;
+    font-size: 12px;
+    border: solid 1px;
+    border-color:gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+/*Section bancos */
+.bancos{
+    display: flex;
+    width: 425px;
+    height: 60px;
+    background-color: white;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: gray;
+}
+.imgbanco{
+    width: 60px;
+    height: 60px;
+}
+.bank{
+    background-color:white;
+    width: 70px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bank2{
+    background-color:white;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p2{
+    font-size: 15px;
+}
+.p3{
+    font-size: 10px;
+}
+
+.imgregreso{
+    box-sizing: border-box;
+    width: 425px;
+    height: 80px;
+}
+.oulet{
+    background-color:#0046be;
+    width: 425px;
+    height: 70PX;
+    display: flex;
+    align-items: center;
+    padding: 10 px;
+    box-sizing: border-box;
+}
+.out1{
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+.out2{
+    color: white;
+    width: 60px;
+    font-size: 9px;
+    display: flex;
+    align-items: flex-start;
+}
+.out3{
+    color: white;
+}
+.out4{
+    color: white;
+    font-size: 7px;
+    justify-content: center;
+}
+.out5{
+    color: yellow;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.outcount{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+     
+}
+.nopasar{
+    width: 425px;
+    height: 50px;
+    background-color: lavender;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.oferton{
+    background-color:transparent;
+    width: 425px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+.ofertas{
+    background-color: transparent;
+    width: 200px;
+    height:210px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 4px;
+    border: solid 1px;
+    border-color: #0046be;
+    position: relative;
+}
+.ofertas img{
+    width: 145px;
+    height: 130px;
+    box-sizing: border-box;
+    margin: 3px;
+}
+.btncompraya{
+    background-color:#0046be;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 6px;
+    border: #0046be 1px;
+    margin: 4px;
+    font-size: 12px;
+    align-items: center;
+}
+.menos{
+    font-size: 12px;
+    text-align: center;
+    }
+.menoss {
+    font-size: 8px;
+    text-align: center;
+}
+.menosss{
+    background-color: crimson;
+    color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 32px;
+    font-size: 9px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.masofertas{
+    background-color: transparent;
+    width: 425px;
+    height: 50px;
+    color: #0046be;
+    border-radius: 6px;
+    border-color: #0046be;
+    border: solid 1px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+
+.tiendita{
+    background-color: lavender;
+    width: 425px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.tiendasabiertas p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 20px;
+    padding: 10px;
+}
+.imgtienda{
+    margin-left: 50px;
+}
+.comunicate{
+  background-color: lavender;
+  width: 425px;
+  height: 80px;
+  display: flex;
+
+}
+.icomunicar{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.com1{
+    color: #0046be;
+}
+.com2{
+    color: #0046be;
+    width: 180px;
+}
+.comunica2{
+    padding: 20px;
+    width: 170px;
+    align-items: center;
+    text-align: center;
+}
+.vendido{
+    background-color: antiquewhite; 
+    width: 425px;
+    height: 500px;
+    font-size: 9px;
+}
+.vendido p{
+    background-color: antiquewhite;
+    width: 80px;
+    display: flex;
+
+}
+.com100{
+    color: #0046be;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 10px;
+}
+.com200{
+    color: black;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 10px;
+}
+.brindar{
+    background-color: lavender;
+    width: 425px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  .com1000{
+    color: #0046be;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 15px;
+  }
+  .com2000{
+    color: black;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 13px;
+  }
+
+  .servicio{
+    width: 425px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.icomunica{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comunica{
+    width: 425px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.atencion p {
+    font-size: 10px; 
+    text-align: center; 
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+}
+.ver {
+    font-size: 10px;
+    color: #0046be; 
+    text-align: center; 
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+}
+.ver1 {
+    font-size: 10px;
+    color: #0046be; 
+    text-align: center; 
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    text-decoration: #0046be;
+    cursor: pointer;
+}
+.derivado{
+    background-color: #0046be;
+    width: 425px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+}
+.derivados p{
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    color: white;
+    font-size: 12px; 
+    text-align: center; 
+}
+.covid{
+    background-color: white;
+    width: 425px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: lightsteelblue;
+    border: solid 1px;
+}
+.acciones{
+    width: 425px;
+    height: 150px;
+    box-sizing: border-box;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    font-size: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.acc1 {
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    font-size: 12px; 
+    color: black;
+}
+.acc2 {
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    font-size: 10px; 
+    color: black;
+}
+.cov{
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    font-size: 12px; 
+    color: #0046be;
+}
+.btnmas{
+    background-color: yellow;
+}
+.imgcard{
+    width: 150px;
+    display: flex;
+}
+.beneficio{
+    box-sizing: border-box;
+    }
+.beneficios{
+    width: 425px;
+    height: 150px;
+    box-sizing: border-box;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    font-size: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.apps{
+    background-color: white;
+    width: 425px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.apps p{
+    font-size: 16px;
+}
+.btndescarga{
+    background-color: #0046be;
+    color: white;
+    width: 140px;
+    border-radius: 5px;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;   
+    
+}
+.recibe{
+    background-color: #0046be;
+    width: 425px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.btnenvia{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;    
+}
+.recibeof{
+    padding: 15px;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;    
+    color: yellow;
+    box-sizing: border-box;
+}
+.recibreinp{
+    padding: 10px;
+}
+.email{
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;    
+    font-size: 7px;
+}
+.promociones{
+    padding: 10px;
+    background-color: #0046be;
+    width: 425px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+.promociones p{
+    margin: 10px;
+    color: yellow;
+    box-sizing: border-box;
+}
+.promociones a{
+    color: white;
+}
+.quienes{
+    padding: 15px;
+    background-color: white;
+    border: darkgrey solid 1px;
+    width: 425px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.quienes p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #0046be;
+    align-items: center;
+}.pagos{
+    background-color: white;
+    width: 425px;
+    height: 100px;
+
+}
+.pagos p{
+    color: #0046be;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width: 320px){
+    .navbar{
+        background-color: #0046be;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    .barra{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+    }
+    .tienda{
+        background-color: lavender;
+        width: 1024px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .tiendas{
+        font-size: 20px;
+    }
+    .tiendass a{
+        text-decoration: none;
+    }
+
+    /*Section descuentos*/
+    .imgdesc2{
+    display: initial;
+    }
+    .imgdesc{
+        display: none;
+    }
+    .descuento{
+        background-color: white;
+        width: 1024px;
+        height: 300px;
+        align-items: center;
+    }
+    .desc{
+        background-color: lavender;
+        width: 1024px;
+        height: 90px;
+        font-size: 12px;
+        border: solid 1px;
+        border-color:gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;  
+    }
+    /*Section bancos */
+    .bancos{
+        margin-top: 230px;
+        display: flex;
+        width: 1024px;
+        height: 100px;
+        background-color: white;
+        box-sizing: border-box;
+        border: solid 1px;
+        border-color: gray;
+    }
+    .imgbanco{
+        width: 100px;
+        height: 100px;
+    }
+    .bank{
+        background-color:white;
+        width: 100px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bank2{
+        background-color:white;
+        width: 2000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .p3{
+        font-size: 10px;
+    }
+    .imgregreso{
+        box-sizing: border-box;
+        width: 1024px;
+        height: 130px;
+    }
+    .oulet{
+        background-color:#0046be;
+        width: 1024px;
+        height: 100PX;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .out1{
+        background-color: red;
+        color: white;
+        width: 200px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+    .out2{
+        color: white;
+        margin-left:10px;
+        width: 200px;
+        font-size: 20px;
+        display: flex;
+        align-items:flex-start;
+    }
+    .out3{
+        color: white;
+        font-size: 20px;
+        
+    }
+    .out4{
+        color: white;
+        font-size: 20px;
+        justify-content: center;
+    }
+    .out5{
+        color: yellow;
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .outcount{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+         
+    }  
+    /*section pasar*/  
+    .nopasar{
+        width: 1024px;
+        height: 70px;
+        background-color: lavender;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .nopasar p{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .oferton{
+        background-color:transparent;
+        width: 1024px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;  
+    }
+    .ofertas{
+        background-color: transparent;
+        width: 200px;
+        height:210px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 4px;
+        border: solid 1px;
+        border-color: #0046be;
+        position: relative;
+    }
+    .ofertas img{
+        width: 145px;
+        height: 130px;
+        box-sizing: border-box;
+        margin: 3px;
+    }
+    .btncompraya{
+        background-color:#0046be;
+        color: white;
+        width: 140px;
+        height: 30px;
+        border-radius: 6px;
+        border: #0046be 1px;
+        margin: 4px;
+        font-size: 12px;
+        align-items: center;
+    }
+    .menos{
+        font-size: 12px;
+        text-align: center;
+        }
+    .menoss {
+        font-size: 8px;
+        text-align: center;
+    }
+    .menosss{
+        background-color: crimson;
+        color: yellow;
+        width: 30px;
+        height: 30px;
+        border-radius: 32px;
+        font-size: 9px;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        position: absolute;
+        left: 100px;
+        top: 10px;
+    }
+    .soloofertas{
+        background-color: #0046be;
+        color: white;
+    }
+
+}
+

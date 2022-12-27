@@ -1,0 +1,24 @@
+.responsive{
+width: 100%;
+height: 200px;
+background-color: aqua;    
+}
+.cel{
+    display: none;
+}
+
+@media (max-width:670px){
+    .responsive{
+        background-color: rgb(97, 165, 42);
+    }    
+}
+
+@media (max-width:320px){
+    .responsive{
+        background-color: rgb(151, 38, 38);
+        display: none;
+    }
+    .cel{
+        display: block;
+    }
+}

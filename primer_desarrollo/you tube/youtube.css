@@ -1,0 +1,13 @@
+.barra-principal{
+    background-color: transparent;
+    display: flex; 
+    justify-content: space-between; 
+    /* cursor: pointer; */
+    top: 0;
+    cursor: pointer;
+    align-items: center;
+}
+.buscar{
+    display: flex; 
+    justify-content: left;
+}

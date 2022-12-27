@@ -1,0 +1,192 @@
+
+navbar{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 40px;
+    color: black;
+}
+.logo2{
+    display: none;
+}
+.card1{
+    background-image: url(https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-color: blanchedalmond;
+}
+.nav-link a{
+    color: black;
+}
+.videomade{
+    display: flex;
+}
+.videom{
+    background-color: #005086;
+    width: 50%;
+    height: 600px;
+    color: white;
+    padding: 50px;
+}
+.monkeyfloat{
+    background-color: rgb(34, 32, 32);
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; 
+    box-sizing: border-box;
+}
+.card-body a{
+    background-color: yellow;
+    color: rgb(43, 41, 41);
+}
+.card-body{
+    font-size: 17px;
+}
+.list-group{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+}
+.list-group a{
+    width: 300px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px dotted gray;
+    color: white;
+    box-sizing: border-box;
+}
+.monkeyimg{
+    padding: 15px;
+    width: 50%;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: alternate;
+}
+.services{
+    display: flex;
+}
+.card{
+    width: 500px;
+    height: 600px;
+}
+.any{
+    display: flex;
+}
+.card11{
+    width: 300px;
+    height: 300px;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+}
+.anytime{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(34, 32, 32);
+    display: flex;
+}
+.win{
+    width: 50%;
+    height: 600px;
+    background-color: orange;
+    display: flex;
+    align-items: baseline;    
+}
+.card11 p{
+    font-size: 14px;
+}
+.morevideos{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.more{
+    background-color: rgba(202, 203, 204, 0.918);
+    width: 70%;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.d-flex align-content-stretch flex-wrap{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(222, 187, 176);
+    display: flex;
+    padding: 30px;
+    margin-left: 20px;
+}
+.clientes{
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.cliente{
+    position: absolute;
+    height: 100px;
+    color: black;
+    padding: 100px;
+    font-size: 60px;
+}
+.segclientes{
+    background-color: rgb(255, 81, 0);
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.cmo{
+    padding: 30px;
+    background-color: rgb(204, 206, 176);
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.cmocravo{
+    background-color: rgb(37, 37, 32);
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.texto{
+    padding: 20px;
+    font-size: 20px;
+}
+.txtcmo p{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.allclients{
+    background-color:gray;
+    width: 50%;
+    height: 600px;
+    display: flex;
+}
+.talk{
+    background-color:hsl(0, 0%, 92%);
+    width: 100%;
+    height: 1000px;
+}
+.monkey{
+    background-image:url(https://1faypk31ihjq3me65miz021u-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/monkey-astro-white-545x645.png);
+    background-repeat: no-repeat;
+    display: flex;
+    color: black;
+}

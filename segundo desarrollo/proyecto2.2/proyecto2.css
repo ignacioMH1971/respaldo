@@ -1,0 +1,358 @@
+*{
+margin: 0em;
+padding: 0;
+font-size: 15px;
+}
+html{
+    font-size: 10px;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+}
+.navbar{
+    background-color:#7350ff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between; 
+    position: fixed;
+    z-index: 1;
+}
+.menu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+}
+.menu2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+}
+.menu  .item {
+    margin: 2rem;
+    width: 10rem;
+}
+.menu2  .items{
+    margin: 2rem;
+    width: 10rem;
+}
+.logo{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+.item>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    }
+.items>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.itemss>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 50px;
+}
+.belowmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #7350ff;
+}
+.belowmenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+    display: none;
+    background-color: #7350ff;
+}
+
+.itemss a:hover{
+    color: white;
+    width: 50px;
+    height: 20px;
+    background-color: #7350ff;
+    border-radius: 8px;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 12px;
+}
+.itemss:hover .belowmenu{
+    display: block;
+    position: absolute;
+}
+/* Seccion conduce*/
+.conduce{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box; 
+    
+}
+.seguridad{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px;
+}
+.p0{
+    padding: 50px;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.p1{
+    padding: 10px;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p2{
+    font-size: 20px;
+    padding:10px ;
+}
+.p11{
+    margin: 50px;
+    padding: 10px;
+    font-size: 3em;
+    }
+.p12{
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    background-color: #7350ff;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    position: relative;
+    margin: 30px;
+    border: 0;
+    box-shadow: 0 0 4px rgba(33,34,64,.16), 0 1px 2px rgba(33,34,64,.08);
+    text-align: center;
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    cursor: pointer;
+}
+.concepto{
+    padding: 20px;
+}
+.conductor{
+padding: 70px;
+}
+.gestor{
+    color: hotpink;
+}
+.ruta{
+    background-color:white;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.elegir{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.route{
+    padding: 20px;
+}
+.i{
+    color: hotpink;
+}
+.app{
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.fab fa-apple{
+    font-size: 40px;
+}
+.descubre{
+    color: black;
+}
+.concepto{
+    background-color:#7350ff;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    box-sizing: border-box;  
+}
+
+/*section concepto*/
+.nuevo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.p0{
+    font-size: 20PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: hotpink;
+}
+.proteccion{
+    background-color: white;
+    height: 700px;
+    font-size: 30px;
+}
+.tu{
+    padding: 100px;
+    font-size: 20px;
+}
+.compromiso {
+padding: 20px;
+display: flex;
+font-size: 30px;
+justify-content: space-around;
+}
+
+/*Section Ciudad*/
+.ciudad{
+    background-color: #7350ff;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.disponible{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.ciudad .txt1{
+    color: plum;
+    font-size: 20px;
+}
+.ciudad .txt2{
+    color: white;
+    font-size: 30px;
+}
+.btnfin{
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    box-sizing: border-box;
+    color: plum;
+    background-color:  #7350ff;
+}
+.menus a{
+    font-size: 15px;
+}
+.tit a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.tit{
+    text-decoration: none;
+    list-style: none;
+}
+.final{
+    width: 100%;
+    height: 180px;
+    background-color:  #7350ff;
+    
+}
+.appstore{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.descubre{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+@media screen and (max-width:320px){
+body{
+    width: 100%;
+}    
+footer{
+    width: 100%;
+}
+
+@media (max-width :320px){
+    .item div{
+        display: none;
+        margin: 0em;
+        padding: 0em;
+    }
+    .item{
+        display: flex;
+        margin: 0em;
+        padding: 0em;  
+    }
+    .menu2{
+        padding: 0;
+        margin: 0;
+        font-size: 4px;
+    }
+    .belowmenu{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+        padding: 0;
+    }
+    .p11{
+        font-size: 28px;
+        padding-top: 70px;
+        margin: 0;
+        font-family: sege ui; 
+    }
+    .p12{
+        font-size: 14px;
+        padding: 0;
+        margin: 10px;
+    }
+    .btn{
+        width: 250px;
+        font-size: 14px;
+        height: 40px;
+    }
+    .mapa{
+        width: 320px;
+    }
+    .gestor{
+        display: none;
+    }
+    .proteccion{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: Avenir;
+}
+.presentacion{
+    background-image: url(https://image.posta.com.mx/sites/default/files/b4021e14-94b7-48b3-bc3a-a0a7f7e23e49.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 100%;
+    
+}
+.logo{
+    color: red;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.navbar{
+    background-image: linear-gradient(black, transparent);
+    display: flex;  
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    border: peru;
+    }
+.cover{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.section-uno{    
+    width:100%;
+    height: 100%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;;
+}
+
+.btntry{
+    text-justify: auto;
+    color: white;
+    background-color: red;
+    font-size: 17px;
+    cursor: pointer;
+}
+.email{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+}
+.presentados{
+    background-color:black;
+    image-rendering: auto;
+    background-image: url(https://media1.giphy.com/media/l4pM35VGqeuL4pfvG/giphy.gif?cid=ecf05e4730ed4776a3786bfe8bba3224314914ce5b8e8bd9&rid=giphy.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 100%;
+}
+.section-dos{
+    margin: 0; 
+    width:100%;
+    height: 40%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;;
+}
+.presentatres{
+    background-color:black;
+    image-rendering: auto;
+    background-image: url(https://giphy.com/static/img/download-app.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 100%;
+}
+.section-tres{
+    position: relative;
+    margin: 0; 
+    width:100%;
+    height: 50%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btndownload{
+    position: absolute;
+    position: static;
+    border-radius: 10px;
+    border-color: gray;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+    text-align: justify;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    display: inline-block;
+    margin: 6px 4px;
+  
+}
+.presentacuatro{
+    background-color:black;
+    image-rendering: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 100%;
+}
+.section-cuatro{
+    margin: 0; 
+    width:100%;
+    height: 50%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}   
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-self: flex-start;
+    width: 600px;
+    height: 100px;
+    text-align: left;
+    align-self: start;
+    color: white;
+    background-color: gray;
+}
+.reg{
+    position: sticky;
+}
+
+.cover2{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}

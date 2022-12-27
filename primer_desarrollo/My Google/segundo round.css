@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* navbar */
+nav{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    margin: 0 10px;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: all .5s ease-in;
+}
+.nav-item:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+}
+/* Main Section*/
+
+.main-section{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://i.pinimg.com/originals/95/e0/00/95e000d27e3395fb41a48dfbaca6b14e.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-section > article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+}
+#title{
+    font-size: 60px;
+    color: white;
+}
+
+.btn{
+    border: 3px solid black;
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.secondary{
+    background-color: black;
+    color: whitesmoke;
+    border-color: white;
+}
+.icon{
+    opacity: 0;
+    transition: all .4s ease-out;
+    position: absolute;
+    left: -20px;
+}
+.btn:hover .icon{
+    opacity: 1;
+    left: 100px;
+}

@@ -1,0 +1,78 @@
+*{
+margin: 0em;
+padding: 0;
+font-size: 15px;
+}
+html{
+    font-size: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    height: auto;
+}
+.menu  .item{
+margin: 2rem;
+width: 15rem;
+}
+.item>a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-left: 0.8rem;
+    transition-delay: 10ms;
+}
+.belowmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.belowmenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+    display: none;
+    transition: all;
+}
+.alt a{
+    padding: 0.2rem;
+}
+.item a:hover{
+    color: black;
+    background-color: #fff;
+}
+.item:hover a +.belowmenu{
+    display: block;
+}
+.fondo {
+    background-image:url(https://www.pcactual.com/medio/2019/02/19/tecnologia_d81e8eda_960x540.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+hr{
+    display: none;
+}
+@media screen and (max-width:600px){
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+.fondo {
+    background-image:url(https://www.pcactual.com/medio/2019/02/19/tecnologia_d81e8eda_960x540.jpg);
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+}
+html{
+    font-size: 7px;
+}
+}

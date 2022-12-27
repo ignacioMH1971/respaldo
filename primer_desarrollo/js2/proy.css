@@ -1,0 +1,63 @@
+.btn{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 1px white;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .red{
+    background-color: red;
+  }
+  
+  .blue{
+    background-color: blue;
+  }
+  
+  .black{
+    background-color: black;
+  }
+  
+  .yellow{
+    background-color: yellow;
+  }
+  
+  section.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .car{
+    width: 400px;
+    height: 150px;
+    border: solid 1px grey;
+    border-radius: 10px;
+  }
+
+  section.wheels{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .ruedadel{
+    border-radius: 120px;
+  }
+  .ruedatras{
+    border-radius: 120px;
+  }
+  
+.solid1{
+    background-color: red;
+}
+.solid2{
+    background-color: blue;
+}
+.solid3{
+    background-color: black;
+}

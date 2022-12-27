@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: Avenir;
+  }
+  .profile-background{
+    height:200px;
+    width: 100%;
+    background: black;
+    position: relative;
+  }
+  
+  .profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    bottom: -75px;
+    left: 50px;
+  }
+  
+  .profile-section{
+    padding: 8% 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .profile-buttons{
+    text-align: center;
+  }
+  
+  .profile-buttons .btn{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+  }
+  .profile-buttons div{
+    margin-bottom: 10px;
+  }
+  
+  .profile-buttons div span{
+    text-decoration: underline;
+  }
+  
